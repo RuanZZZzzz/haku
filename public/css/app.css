@@ -10899,3 +10899,145 @@ a.text-dark:focus {
   }
 }
 
+h1,
+h3,
+p,
+a,
+button {
+  font-family: "Arial", "Microsoft YaHei", "\9ED1\4F53", "\5B8B\4F53", sans-serif;
+}
+
+.onepage {
+  height: 1100px;
+}
+
+.onepage-bg {
+  height: 800px;
+  width: 100%;
+  position: absolute;
+  background-position: center center;
+  background-size: cover;
+}
+
+.headh1content {
+  margin-top: 150px;
+  line-height: 75px;
+  color: aliceblue;
+}
+
+.title-text {
+  margin-left: 50px;
+  color: darkgrey;
+}
+
+.headfontsize h1 {
+  font-size: 50pt;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.line1 {
+  background: #000;
+  width: 80px;
+  height: 1px;
+  margin: 25px auto;
+  position: relative;
+  z-index: 1;
+}
+
+.welcome-content h3,
+.yewu-content h3 {
+  color: #222222;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 0px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.welcome-content,
+.yewu-content {
+  padding: 80px 0;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.bounceIn {
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+}
+
+.welcome-content p,
+.yewu-content p {
+  color: #3d3d3d;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 85%;
+  margin: 30px auto 0;
+}
+
+.btn1 {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 14px !important;
+  font-weight: 600;
+  border: 2px solid #000;
+  padding: 11px 44px;
+  font-family: "\5FAE\8F6F\96C5\9ED1", "Arial Unicode MS";
+  display: table;
+  margin: 45px auto 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn1:hover {
+  border-color: #888;
+  color: #888;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.courses {
+  float: left;
+  background: #fff;
+  padding: 0 30px 10px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.courses > a {
+  width: 100%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+.classicon p {
+  margin-top: 60px;
+  color: #fff;
+}
+
+.classicon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff;
+  opacity: 0;
+}
+
+.classicon:hover {
+  background: #07aa30;
+  opacity: 0.9;
+  transition: opacity 0.5s;
+}
+
