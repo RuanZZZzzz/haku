@@ -32,7 +32,7 @@
                         </a>
                     </div>
 
-				<a class="btn1" href="#">Read More</a>
+				{{-- <a class="btn1" href="#">Read More</a> --}}
 			</div>
 		</div>
 	</div>

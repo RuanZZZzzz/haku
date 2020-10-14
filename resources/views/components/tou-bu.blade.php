@@ -1,22 +1,11 @@
-<ul class="nav nav-pills justify-content-center">
-    <a class="navbar-brand" href="/">haku</a>
-    <li class="nav-item">
-      <a class="nav-link active" href="#">Active</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Separated link</a>
-      </div>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-    </li>
-  </ul>
+<nav class="site-header sticky-top py-1 bg-light">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="py-2" href="#" aria-label="Product">
+      <img src={{"images/logo-bo.png"}} alt="" width="30px" height="30px">
+      </a>
+      <a class="py-2 d-none d-md-inline-block text-dark" href="#">企業情報</a>
+      <a class="py-2 d-none d-md-inline-block text-dark" href="#">業務内容</a>
+      <a class="py-2 d-none d-md-inline-block text-dark" href="#">ニュース</a>
+      <a class="py-2 d-none d-md-inline-block text-dark" href="#">お問い合せ</a>
+    </div>
+  </nav>

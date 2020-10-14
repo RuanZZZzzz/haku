@@ -9,9 +9,11 @@
     <title>haku</title>
 </head>
 <body>
+    <x-tou-bu></x-tou-bu>
     <x-onepage></x-onepage>
     <x-towpage></x-towpage>
     <x-yewu></x-yewu>
+    <x-news></x-news>
 </body>
 
 
